@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" type="text/css" media="screen" href="main.css" /> -->
+    <script>
+        //var text = 'osccUsers?filter={"where":{"and":[{"cmName":"{$this." ".$state." ".$login_userid}"},{"typeperson":"ผู้ปฏิบัติงาน"} ] } } ';
+        
+        //var text = 'osccUsers?filter={"where":{"and":[{"cmName":"${this.state.login_userid}"},{"typeperson":"ผู้ปฏิบัติงาน"}]}}';
+        var text = 'osccUsers?filter={"where":{"and":{"cmName":"{$this} " } } } <br>';
+        var text2 = 'osccUsers?filter={"where":{"and":{"cmName":"${state} " } } } <br>';
+        var text3 = 'osccUsers?filter={"where":{"and":{"cmName":"${login_userid}",{"typeperson":"ผู้ปฏิบัติงาน" } } } } ';
+        
+        var T_test = text + text2 + text3 ;
+        console.log(T_test);
+        //document.write(T_test);
+    </script>
+</head>
+<body>
+    test
+</body>
+</html>
