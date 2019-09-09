@@ -9,9 +9,9 @@
     <script>
         //var text = 'osccUsers?filter={"where":{"and":[{"cmName":"{$this." ".$state." ".$login_userid}"},{"typeperson":"ผู้ปฏิบัติงาน"} ] } } ';
         
-        var text = 'oscc?filter={"where":{"and":[{"cmName":"${this.state.login_userid}"},{"typeperson":"ssssss"}]}}';
+        //var text = 'oscc?filter={"where":{"and":[{"cmName":"${this.state.login_userid}"},{"typeperson":"ssssss"}]}}';
         
-        var textTemp = text;
+        //var textTemp = text;
         var textPart = [];
         while (textTemp!=""){
             var posDolla = textTemp.indexOf("$");
